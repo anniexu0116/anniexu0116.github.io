@@ -14,12 +14,12 @@ header {
     text-align: center;
 
 }
-
 /* Ensure the container is centered */
 .container {
     display: inline-block;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+    
 }
 
 /* Style the name */
@@ -67,6 +67,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 /* Style the text-and-image div */
