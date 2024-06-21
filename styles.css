@@ -1,10 +1,128 @@
+/* Apply the Google Font to the whole page */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e7e6f4, #7eabb1); /* Light blue gradient */
 }
 
-h1 {
+/* Style the header with centered text and margins */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+
+}
+
+/* Ensure the container is centered */
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style the name */
+.name h1 {
+    margin: 0;
+    font-size: 2rem;
     color: #333;
 }
 
+/* Style the navigation */
+nav ul {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #145498;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Add margins to the main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the content section */
+.content {
+    text-align: left;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the text-and-image div */
+.text-and-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* Style the headshot container */
+.headshot-container {
+    width: 250px; /* Adjust width and height as needed */
+    height: 300px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures image stays within circular frame */
+    margin-right: 20px; /* Optional: Add spacing between image and paragraph */
+}
+
+/* Style the headshot image */
+.headshot-container img {
+    width: 100%; /* Ensures the image fills the circular frame */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the entire image is displayed within the container */
+    object-position: center;
+}
+
+/* Style the paragraph */
+.text-and-image p {
+    flex: 1; /* Allow the paragraph to take up remaining space */
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Individual icon styles */
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust size of icons */
+    height: auto;
+}
