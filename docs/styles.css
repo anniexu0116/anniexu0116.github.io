@@ -3,6 +3,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 1.4rem;
     background: linear-gradient(to right, #e7e6f4, #7eabb1); /* Light blue gradient */
 }
 
@@ -61,8 +62,8 @@ main {
 /* Style the content section */
 .content {
     text-align: left;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 1400px;
+    max-height: 400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -97,6 +98,13 @@ main {
     object-position: center;
 }
 
+/ * style the pdf container*/
+
+.pdf_container{
+    width: 100%;
+    height: 600px;
+}
+
 /* Style the paragraph */
 .text-and-image p {
     flex: 1; /* Allow the paragraph to take up remaining space */
@@ -106,8 +114,8 @@ main {
 /* Footer styles */
 footer {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: px;
+    right: 30px;
 }
 
 /* Social icons container */
@@ -124,6 +132,6 @@ footer {
 }
 
 .social-icons img {
-    width: 40px; /* Adjust size of icons */
+    width: 60px; /* Adjust size of icons */
     height: auto;
 }
